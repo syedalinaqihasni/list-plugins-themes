@@ -1,0 +1,11 @@
+.sortable th {
+    cursor: pointer;
+}
+
+.sortable th.sorted-asc:after {
+    content: ' \25B2';
+}
+
+.sortable th.sorted-desc:after {
+    content: ' \25BC';
+}
